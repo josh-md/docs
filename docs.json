@@ -5,7 +5,7 @@
   "colors": {
     "primary": "#6142b0",
     "light": "#46405c",
-    "dark": "#33196e"
+    "dark": "#cfbcff"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -17,8 +17,7 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "get-started/add-phone",
-              "development"
+              "get-started/add-phone"
             ]
           },
           {
