@@ -4,8 +4,8 @@
   "name": "Inbox by MessageDesk",
   "colors": {
     "primary": "#6142b0",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "light": "#46405c",
+    "dark": "#33196e"
   },
   "favicon": "/favicon.svg",
   "navigation": {
@@ -48,7 +48,7 @@
         {
           "anchor": "Home",
           "href": "https://www.messagedesk.com/",
-          "icon": "home"
+          "icon": "house"
         },
         {
           "anchor": "Free Tools",
@@ -64,8 +64,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.png",
-    "dark": "/logo/dark.png"
+    "light": "/logo/logo-light.png",
+    "dark": "/logo/logo-dark.png"
   },
   "navbar": {
     "links": [
