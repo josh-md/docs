@@ -9,6 +9,17 @@
   },
   "favicon": "/favicon.svg",
   "navigation": {
+    "dropdowns": [
+      {
+        "dropdown": "Phone Numbers",
+        "icon": "phone",
+        "pages": [
+          "phone-numbers/phone-types",
+          "phone-numbers/hosting-porting",
+          "phone-numbers/naming"
+        ]
+      }
+    ],
     "tabs": [
       {
         "tab": "Guides",
@@ -43,17 +54,6 @@
         ]
       }
     ],
-    "dropdowns" [
-      {
-        "dropdown": "Phone Numbers",
-        "icon": "phone",
-        "pages": [
-          "phone-numbers/phone-types",
-          "phone-numbers/hosting-porting",
-          "phone-numbers/naming"
-        ]
-      }
-    ]
     "global": {
       "anchors": [
         {
