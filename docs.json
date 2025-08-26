@@ -19,6 +19,7 @@
             "pages": [
               "index",
               "get-started/add-phone",
+              "get-started/import-contacts",
               "get-started/teammates",
               "get-started/roles-permissions"
             ]
