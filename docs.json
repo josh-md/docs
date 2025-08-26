@@ -17,7 +17,8 @@
             "group": "Getting started",
             "pages": [
               "index",
-              "get-started/add-phone"
+              "get-started/add-phone",
+              "get-started/teammates"
             ]
           },
           {
