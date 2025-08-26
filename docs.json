@@ -1,11 +1,11 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "palm",
   "name": "Inbox by MessageDesk",
   "colors": {
     "primary": "#6142b0",
     "light": "#46405c",
-    "dark": "#cfbcff"
+    "dark": "#927bce"
   },
   "favicon": "/favicon.svg",
   "navigation": {
