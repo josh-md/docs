@@ -30,23 +30,20 @@
               "phone-numbers/hosting-porting",
               "phone-numbers/naming"
             ]
-          }
-        ],
-        "menu": [
+          },
           {
-            "item": "Phone Numbers",
-            "icon": "phone",
-            "groups": [
-              {
-                "group": "Basics",
-                "icon": "plus",
-                "pages": [
-                  "phone-numbers/phone-types",
-                  "phone-numbers/hosting-porting",
-                  "phone-numbers/naming"
-                ]
-              }
-            ]
+          "group": "Phone Numbers",
+          "icon": "phone",
+          "pages": [
+            {
+              "group": "Basics",
+              "pages": [
+                "phone-numbers/phone-types",
+                "phone-numbers/hosting-porting",
+                "phone-numbers/naming"
+              ]
+            }
+          ]
           }
         ]
       },
