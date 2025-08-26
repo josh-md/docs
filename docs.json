@@ -23,6 +23,7 @@
     "tabs": [
       {
         "tab": "Guides",
+        "icon": "Book",
         "groups": [
           {
             "group": "Getting started",
@@ -40,6 +41,23 @@
               "phone-numbers/naming"
             ]
           }
+        ]
+        "menu": [
+          {
+            "item": "Phone Numbers",
+            "icon": "phone",
+            "groups": [
+              {
+                "group": "Test Group",
+                "icon": "plus",
+                "pages": [
+                  "phone-numbers/phone-types",
+                  "phone-numbers/hosting-porting",
+                  "phone-numbers/naming"
+                ]
+              }
+            ]
+          },
         ]
       },
       {
@@ -104,10 +122,8 @@
    ]
   },
   "footer": {
-    "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+    "socials": {    
+      "linkedin": "https://linkedin.com/company/messagedesk"
     }
   }
 }
