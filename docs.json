@@ -1,129 +1,129 @@
 {
-  "$schema": "https://mintlify.com/docs.json",
-  "theme": "palm",
-  "name": "Inbox by MessageDesk",
-  "colors": {
-    "primary": "#6142b0",
-    "light": "#46405c",
-    "dark": "#927bce"
-  },
-  "favicon": "/favicon.svg",
-  "navigation": {
-    "dropdowns": [
-      {
-        "dropdown": "Phone Numbers",
-        "icon": "phone",
-        "pages": [
-          "phone-numbers/phone-types",
-          "phone-numbers/hosting-porting",
-          "phone-numbers/naming"
-        ]
-      }
-    ],
-    "tabs": [
-      {
-        "tab": "Guides",
-        "icon": "Book",
-        "groups": [
-          {
-            "group": "Getting started",
-            "pages": [
-              "index",
-              "get-started/add-phone",
-              "get-started/teammates"
-            ]
-          },
-          {
-            "group": "Phone Numbers",
-            "pages": [
-              "phone-numbers/phone-types",
-              "phone-numbers/hosting-porting",
-              "phone-numbers/naming"
-            ]
-          }
-        ]
-        "menu": [
-          {
-            "item": "Phone Numbers",
-            "icon": "phone",
-            "groups": [
-              {
-                "group": "Test Group",
-                "icon": "plus",
+    "$schema": "https://mintlify.com/docs.json",
+    "theme": "palm",
+    "name": "Inbox by MessageDesk",
+    "colors": {
+        "primary": "#6142b0",
+        "light": "#46405c",
+        "dark": "#927bce"
+    },
+    "favicon": "/favicon.svg",
+    "navigation": {
+        "dropdowns": [
+            {
+                "dropdown": "Phone Numbers",
+                "icon": "phone",
                 "pages": [
-                  "phone-numbers/phone-types",
-                  "phone-numbers/hosting-porting",
-                  "phone-numbers/naming"
+                    "phone-numbers/phone-types",
+                    "phone-numbers/hosting-porting",
+                    "phone-numbers/naming"
                 ]
-              }
+            }
+        ],
+        "tabs": [
+            {
+                "tab": "Guides",
+                "icon": "Book",
+                "groups": [
+                    {
+                        "group": "Getting started",
+                        "pages": [
+                            "index",
+                            "get-started/add-phone",
+                            "get-started/teammates"
+                        ]
+                    },
+                    {
+                        "group": "Phone Numbers",
+                        "pages": [
+                            "phone-numbers/phone-types",
+                            "phone-numbers/hosting-porting",
+                            "phone-numbers/naming"
+                        ]
+                    }
+                ],
+                "menu": [
+                    {
+                        "item": "Phone Numbers",
+                        "icon": "phone",
+                        "groups": [
+                            {
+                                "group": "Test Group",
+                                "icon": "plus",
+                                "pages": [
+                                    "phone-numbers/phone-types",
+                                    "phone-numbers/hosting-porting",
+                                    "phone-numbers/naming"
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "tab": "API reference",
+                "groups": [
+                    {
+                        "group": "API documentation",
+                        "pages": [
+                            "api-reference/introduction"
+                        ]
+                    }
+                ]
+            }
+        ],
+        "global": {
+            "anchors": [
+                {
+                    "anchor": "Home",
+                    "href": "https://www.messagedesk.com/",
+                    "icon": "house"
+                },
+                {
+                    "anchor": "Free Tools",
+                    "href": "https://www.messagedesk.com/free-tools",
+                    "icon": "wrench"
+                },
+                {
+                    "anchor": "Blog",
+                    "href": "https://www.messagedesk.com/blog",
+                    "icon": "newspaper"
+                }
             ]
-          },
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
-            ]
-          }
-        ]
-      }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Home",
-          "href": "https://www.messagedesk.com/",
-          "icon": "house"
-        },
-        {
-          "anchor": "Free Tools",
-          "href": "https://www.messagedesk.com/free-tools",
-          "icon": "wrench"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.messagedesk.com/blog",
-          "icon": "newspaper"
         }
-      ]
+    },
+    "logo": {
+        "light": "/logo/logo-light.png",
+        "dark": "/logo/logo-dark.png"
+    },
+    "navbar": {
+        "links": [
+            {
+                "label": "Support",
+                "href": "mailto:support@messagedesk.com"
+            }
+        ],
+        "primary": {
+            "type": "button",
+            "label": "Open Inbox",
+            "href": "https://inbox.messagedesk.com"
+        }
+    },
+    "contextual": {
+        "options": [
+            "copy",
+            "view",
+            "chatgpt",
+            "claude",
+            "perplexity",
+            "mcp",
+            "cursor",
+            "vscode"
+        ]
+    },
+    "footer": {
+        "socials": {
+            "linkedin": "https://linkedin.com/company/messagedesk"
+        }
     }
-  },
-  "logo": {
-    "light": "/logo/logo-light.png",
-    "dark": "/logo/logo-dark.png"
-  },
-  "navbar": {
-    "links": [
-      {
-        "label": "Support",
-        "href": "mailto:support@messagedesk.com"
-      }
-    ],
-    "primary": {
-      "type": "button",
-      "label": "Open Inbox",
-      "href": "https://inbox.messagedesk.com"
-    }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
-  },
-  "footer": {
-    "socials": {    
-      "linkedin": "https://linkedin.com/company/messagedesk"
-    }
-  }
 }
