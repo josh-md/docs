@@ -45,6 +45,14 @@
                 ]
               }
             ]
+          },
+           {
+            "group": "Resources",
+            "pages": [
+              "contact-us",
+              "resources/support",
+              "resources/troubleshooting"
+            ]
           }
         ]
       },
@@ -88,14 +96,14 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:support@messagedesk.com"
+        "label": "Sign In",
+        "href": "https://inbox.messagedesk.com"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Open Inbox",
-      "href": "https://inbox.messagedesk.com"
+      "label": "Create Account",
+      "href": "https://inbox.messagedesk.com/#/create-account"
     }
   },
   "contextual": {
