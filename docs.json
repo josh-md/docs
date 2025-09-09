@@ -50,6 +50,7 @@
             "group": "Resources",
             "pages": [
               "contact-us",
+              "resources/downloads",
               "resources/support",
               "resources/troubleshooting"
             ]
