@@ -37,12 +37,13 @@
               ]
             },
             {
-              "group": "A2P Registration",
+              "group": "Compliance",
               "pages": [
                 "a2p-registration/a2p-overview",
                 "a2p-registration/a2p-privacy",
                 "a2p-registration/a2p-spam",
-                "a2p-registration/a2p-submit"
+                "a2p-registration/a2p-submit",
+                "a2p-registration/compliance-center"
                 ]
               }
             ]
