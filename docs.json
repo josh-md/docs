@@ -45,6 +45,12 @@
                 "a2p-registration/a2p-submit",
                 "a2p-registration/compliance-center"
                 ]
+              },
+              {
+                "group": "Messaging Types",
+                "pages" : [
+                  "messaging/group"
+                ]
               }
             ]
           },
