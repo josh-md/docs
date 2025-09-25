@@ -89,11 +89,6 @@
           "anchor": "Free Tools",
           "href": "https://www.messagedesk.com/free-tools",
           "icon": "wrench"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://www.messagedesk.com/blog",
-          "icon": "newspaper"
         }
       ]
     }
